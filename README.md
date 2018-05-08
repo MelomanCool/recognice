@@ -9,6 +9,6 @@ Currently in alpha/experimental stage, so anything could change in the future.
 3. `make`
 
 ## Running the example (main.py)
-1. `cp make.py.example make.py`
+1. `cp config.py.example config.py`
 2. Edit the config file.
 3. `python3 main.py *stream-url-or-file-path* | python3 viewlog.py` (a bit awkward for now).
