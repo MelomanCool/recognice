@@ -4,9 +4,11 @@ A simple Python wrapper around C++ Gracenote SDK (GNSDK).
 Currently in alpha/experimental stage, so anything could change in the future.
 
 ## Building
-1. `cp make_config.py.example make_config.py`
+1. `cp Makefile.config.example Makefile.config`
 2. Edit the config file.
-3. `make`
+3. `make`  
+   or  
+   `make V=1` for more verbose output.
 
 ## Running the example (main.py)
 1. `cp config.py.example config.py`

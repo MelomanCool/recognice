@@ -1,9 +1,10 @@
 /users/
-/_output/
+/build/
 __pycache__/
 libgnsdk*
 config.py
-make_config.py
+Makefile.config
 *.log
 *.txt
 *.so
+*~

@@ -1,0 +1,7 @@
+platform = linux_x86-64
+
+gn = /path/to/gnsdk
+
+gn-suppress-warns = -Wno-terminate  \
+                    -Wno-deprecated \
+                    -Wno-deprecated-declarations

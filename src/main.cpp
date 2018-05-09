@@ -3,7 +3,12 @@
 #include <functional>
 #include <stdexcept>
 
-#include <gnsdk.hpp>
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated"
+#pragma GCC diagnostic ignored "-Wterminate"
+    #include <gnsdk.hpp>
+#pragma GCC diagnostic pop
+
 #include <pybind11/pybind11.h>
 
 #include "StreamEvents.h"
