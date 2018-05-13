@@ -1,6 +1,7 @@
-# [alpha] Stream Music Recognition
+# [alpha] Recognice
 
-A simple Python wrapper around C++ Gracenote SDK (GNSDK).  
+A nice and simple Python library for recognition of music streams.  
+Uses Gracenote SDK (GNSDK) as a backend.  
 Currently in alpha/experimental stage, so anything could change in the future.
 
 ## Building
